@@ -16,8 +16,9 @@ public class JenkinsTestApplication {
 
     public static void main(String[] args) {
         System.out.printf("Starting ... the server ");
-        System.out.printf("Startingdfsasfas ... the server ");
         SpringApplication.run(JenkinsTestApplication.class, args);
+        System.out.printf("Startingdfsasfas ... the server ");
+
     }
 
 }
