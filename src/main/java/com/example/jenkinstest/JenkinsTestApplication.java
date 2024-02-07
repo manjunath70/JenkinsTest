@@ -15,6 +15,7 @@ public class JenkinsTestApplication {
     }
 
     public static void main(String[] args) {
+        System.out.printf("Starting ... the server ");
         SpringApplication.run(JenkinsTestApplication.class, args);
     }
 
